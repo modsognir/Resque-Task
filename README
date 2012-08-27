@@ -18,11 +18,13 @@ Examples
       puts "Class: #{task.parent.to_s}"
       puts "Arguments: #{task.args.inspect}"
       puts "Failed at: #{task.failed_at}"
+      puts "Status: #{task.status.inspect}"
     end
     
     => Class: SomeClass
     => Arguments: ["Jared Fraser"]
     => Failed at: 2011/05/26 08:45:59
+    => Status: :failed
 
 
 Todo
