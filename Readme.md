@@ -1,5 +1,6 @@
 Resque-task
 ===========
+[![Gem Version](https://badge.fury.io/rb/resque-task.png)](http://badge.fury.io/rb/resque-task)
 
 This is a gem designed to work with Resque (tested with >= 1.13.0) to facilitate easier enumeration.
 
